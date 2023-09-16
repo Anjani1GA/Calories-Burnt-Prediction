@@ -50,12 +50,6 @@ calories_data.describe()
 """
 
 sns.set()
-
-#finding the distribution of "Age" column
-sns.distplot(calories_data['Age'])
-
-sns.distplot(calories_data['Weight'])
-
 #CORRELATION
 correlation=calories_data.corr()
 
